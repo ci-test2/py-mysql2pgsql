@@ -3,6 +3,12 @@ python:
   - "2.6"
   - "2.7"
  # - "3.3"
+ 
+env:
+  - FOO= test
+  - Test= varsha
+  - secure: fUM3bDr1mUuEuNoAC95kgyrx/814Lpbl4YvHTzo/JiVPb3twYgL/6rkz5MUphSi1385JT59x1WNdySyFrHWIesoIliFGiQ4Avmx6wKUeVkGLuiEqlyOQFLlosIN9rsBXJbNAuwN0v8/GPpddk4vY3fCw+RPcPqaUZJhHKpnVvbYzkIeNISrj0CbkMhSilkizURqcxuavHwnh/s4AgDpbm9Vj6CqLUN/43xiNjY1T/efIR0NlZHAotDFxwSbhEB+p8rEZxr1ozbluxLGoW4hDZ23KyqLxCK8pugqacsPUpz0/p6dnTHuZ1Y4bGwZ9QbYee3IlRQct/p8axhdysH4FcA==
+  
 notifications:
   email:
     varsha@shippable.com
