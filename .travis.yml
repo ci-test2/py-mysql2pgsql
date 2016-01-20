@@ -20,4 +20,4 @@ notifications:
     pull_requests: true
     channels:
       - "chat.freenode.net#test-irc"
-build_image: shippable/minv123    
+#build_image: shippable/minv2
