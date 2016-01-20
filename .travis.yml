@@ -15,7 +15,7 @@ notifications:
       - test_ci2@yahoo.in
       - varsha@shippable.com
     on_success: change
-    on_failure: always
+    on_failure: change
   irc:
     pull_requests: true
     channels:
